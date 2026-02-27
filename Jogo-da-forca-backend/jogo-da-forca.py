@@ -106,7 +106,7 @@ while True:
                                     #Adicionando a letra do jogador em letras já digitadas
                                     letra_usuario.append(letra_do_jogador)
                                     #Verificando se a letra está na palavra
-                                    if(letra_do_jogador in palavra) or (letra_do_jogador_esp in palavra):
+                                    if(letra_do_jogador in palavra) and (letra_do_jogador_esp in palavra):
                                         #Imprimindo novo layaut do jogo
                                         for letra in palavra:
                                             if letra in letra_usuario:
@@ -208,7 +208,7 @@ while True:
                                     #Adicionando a letra do jogador em letras já digitadas
                                     letra_usuario.append(letra_do_jogador)
                                     #Verificando se a letra está na palavra
-                                    if(letra_do_jogador in palavra) or (letra_do_jogador_esp in palavra):
+                                    if(letra_do_jogador in palavra) and (letra_do_jogador_esp in palavra):
                                         #Imprimindo novo layaut do jogo
                                         for letra in palavra:
                                             if letra in letra_usuario:
@@ -310,7 +310,7 @@ while True:
                                     #Adicionando a letra do jogador em letras já digitadas
                                     letra_usuario.append(letra_do_jogador)
                                     #Verificando se a letra está na palavra
-                                    if(letra_do_jogador in palavra) or (letra_do_jogador_esp in palavra):
+                                    if(letra_do_jogador in palavra) and (letra_do_jogador_esp in palavra):
                                         #Imprimindo novo layaut do jogo
                                         for letra in palavra:
                                             if letra in letra_usuario:
@@ -412,7 +412,7 @@ while True:
                                     #Adicionando a letra do jogador em letras já digitadas
                                     letra_usuario.append(letra_do_jogador)
                                     #Verificando se a letra está na palavra
-                                    if(letra_do_jogador in palavra) or (letra_do_jogador_esp in palavra):
+                                    if(letra_do_jogador in palavra) and (letra_do_jogador_esp in palavra):
                                         #Imprimindo novo layaut do jogo
                                         for letra in palavra:
                                             if letra in letra_usuario:
